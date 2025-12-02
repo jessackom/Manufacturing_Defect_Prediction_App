@@ -1,6 +1,28 @@
-node_modules
-dist
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data and models
+data/
+models/
+*.sqlite3
+
+# Environment
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Mac
 .DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
