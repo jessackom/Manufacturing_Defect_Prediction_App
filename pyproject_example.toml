@@ -1,0 +1,11 @@
+[project]
+name = "manufacturing-defect-prediction-app" # distribution name can keep hyphens
+version = "0.0.0"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+# If your package lives at the repository root or under src/, set where accordingly
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["manufacturing_defect_prediction_app*"]
